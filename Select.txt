@@ -1,0 +1,10 @@
+SELECT cabecera_factura.numero, cabecera_factura.fecha, producto.nombre, detalle_factura.cantidad, detalle_factura.precio, detalle_factura.total
+FROM cabecera_factura, detalle_factura, producto
+WHERE cabecera_factura.numero = '3531'
+AND cabecera_factura.numero = detalle_factura.numero_factura
+AND detalle_factura.codigo_producto = producto.codigo;
+  
+
+SELECT cabecera_factura.numero, cliente.primer_nombre 
+FROM cabecera_factura 
+JOIN cliente ON cabecera_factura.codigo_cliente = cliente.codigo;
