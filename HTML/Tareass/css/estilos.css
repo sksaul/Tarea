@@ -1,0 +1,18 @@
+/* se aplica a todos los spam colocando el nombre de la etiqueta */
+span{
+     background-color: red;
+     color: blue;
+     font-size: 13px;
+}
+
+/* selector por id  se coloca numeral seguido por el id */
+
+#texto {
+    background-color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+/*selector * aplica a todos los elementos */
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
