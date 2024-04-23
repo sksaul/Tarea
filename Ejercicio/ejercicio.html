@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AppDeGatos</title>
+    <link href="style.css" rel="stylesheet">
+ </head>
+  <body>
+    <h2 id="gatos">AppdeGatos</h2>
+    <main>
+      <h3>Imagenes de gatos</h3>
+      <p>Haz click aqui para ver mas <a href="#" 
+        target="_blank" rel="noopener norferrer">
+        Imagenes de gatos.</a></p>
+      
+      <a href="https://heroe.fandom.com/es/wiki/Gato_con_Botas" 
+      target="_blank" rel="noopener norferrer"><img src="https://bit.ly/fcc-relaxing-cat" 
+      alt="un gato naranja"></a>
+      <hr>
+     <h3>Listas de gatos</h3>
+      <div>
+     <p>Cosas de <em>gatos</em>:</p>
+       <ul id="amor">
+        <li>Hierba para gatos </li>
+        <li>Leche</li>
+        <li>Pizza</li>
+       </ul>
+
+       <img id="pizza" src="pizza.jpg" alt="pizza">
+
+       <p>Cosas que <strong>odian</strong> los gatos:</p>
+        <ol id="odio">
+          <li>El agua</li>
+          <li>A los perros</li>
+          <li><s>A los humanos</s></li>
+        </ol>
+      </div>
+      <img src="gato.jpg " alt="gato con botas y barba"> 
+      
+
+      <form action="/ejercicio.html">
+        <!--botones de radio-->
+
+        <label for="Interior"><input id="Interior" type="radio"
+          value="Interior" name="Interior-exterior"> Interior</label>
+        <br>
+        <label for="Exterior"><input id="Exterior" type="radio" 
+         value="Exterior" name="Interior-exterior"> Exterior</label>
+        <br>
+        <!--casillas de verificacion-->
+        <label for="cariñoso">
+          <input id="cariñoso" type="checkbox"
+          value="cariñoso" 
+          name="personalidad" checked>Cariñoso</label>
+          <br>
+        <label for="Lindo">
+          <input id="Lindo" type="checkbox" 
+         value="Lindo" 
+         name="personalidad">Lindo</label>
+         <br>
+        <label for="Feo">
+          <input id="Feo" type="checkbox"
+          value="Feo" 
+          name="personalidad">Feo</label>
+          <br>
+      
+        <!--texto y boton de enviar-->
+        <input type="text" placeholder="URL de la foto de tu gato " required>
+        <br>
+        <button type="submit">Enviar</button>
+
+      </form>
+      
+      
+    </main>
+    <footer>
+      <p> <small> derechos de autor <a href="https://heroe.fandom.com/es/wiki/Gato_con_Botas">
+        heroe.fandom.com</a> </small></p>
+    </footer>
+
+
+    
+ </body>
+</html>
