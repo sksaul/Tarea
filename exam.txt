@@ -1,0 +1,25 @@
+create database escuelas;
+use escuelas;
+create table estudiantes (
+carnet varchar (20) not null , 
+nombre varchar(100) not null , 
+apellido varchar (100) not null,
+telefono varchar (10) not null
+);
+select*from estudiantes; 
+insert into estudiantes (carnet,nombre, apellido,telefono)
+values ('12-241', 'Juan', 'Garcia', '24028123');
+insert into estudiantes (carnet,nombre, apellido,telefono)
+values ('12-002', 'Pedro', 'Lopez', '20948912');
+insert into estudiantes (carnet,nombre, apellido,telefono)
+values ('35-593', 'Lucas', 'Lorenzo', '08461809');
+insert into estudiantes (carnet,nombre, apellido,telefono)
+values ('99-099', 'Diego', 'Consuelo', '09494934');
+
+delete from estudiantes
+where carnet_nombre_apellido_telefono = 12-241_Juan_Garcia_24028123; 
+
+update escuelas.estudiantes 
+set telefono = ('9828212');
+
+select*from estudiantes;

@@ -1,0 +1,18 @@
+.color{
+    color: green;
+        
+}
+
+#pa{
+    color: blue;
+}
+body{
+    background-color: rosybrown;
+}
+#ola{
+    color: black;
+            background-color: rgb(194, 47, 150);
+            font-size: 20px;
+            border-radius: 5%;
+            margin: 40px 5px 40px 5 px;
+}
