@@ -1,0 +1,111 @@
+body{
+     background-color: #0c192c;
+}
+
+.prin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.b1{
+    background-color: rgb(47, 179, 255);
+    color: white;
+    border: 2px;
+    padding: 15px 50px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 200px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.b1:hover{
+    background-color: rgb(34, 130, 185);
+}
+
+.b2{
+    background-color: rgb(47, 179, 255);
+    color: white;
+    border: 2px;
+    padding: 15px 50px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 200px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.b2:hover{
+    background-color: rgb(34, 130, 185);
+}
+
+.b3{
+    background-color: rgb(47, 179, 255);
+    color: white;
+    border: 2px;
+    padding: 15px 50px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 200px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.b3:hover{
+    background-color: rgb(34, 130, 185);
+}
+
+.si{
+    background-color: greenyellow;
+    color: rgb(113, 168, 30);
+    border: 2px;
+    padding: 15px 50px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 100px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.si:hover{
+    background-color: rgb(89, 255, 47);
+}
+
+.no{
+    background-color: greenyellow;
+    color: rgb(113, 168, 30);
+    border: 2px;
+    padding: 15px 50px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 100px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.no:hover{
+    background-color: rgb(89, 255, 47);
+}
+
+.Gay{
+    background-color: greenyellow;
+    color: rgb(113, 168, 30);
+    border: 2px;
+    padding: 15px 50px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 100px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.Gay:hover{
+    background-color: rgb(89, 255, 47);
+}

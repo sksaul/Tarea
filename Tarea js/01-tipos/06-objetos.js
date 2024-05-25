@@ -9,3 +9,16 @@ let personaje = {
     edad: "200",
 };
 console.log(personaje);
+console.log(personaje.nombre);
+console.log(personaje['anime']);
+
+personaje.edad = 300; 
+
+let llave = 'edad';
+personaje ['edad'] = 3402;
+
+
+delete personaje.anime;
+
+console.log(personaje);
+

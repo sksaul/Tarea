@@ -1,0 +1,106 @@
+body{
+    background-color: rgb(43, 39, 39);
+}
+.es1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+ 
+
+.btn1{
+    background-color: gainsboro;
+    color: gray;
+    border: 2px ;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 1rem;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 8px 8px 16px #ccc;
+    
+}
+.btn1:hover{
+    background-color: #a09e9e;
+        
+}
+       
+
+.btn2{
+    background-color: gainsboro;
+    color: gray;
+    border: 15px;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 8px 8px 16px #ccc;
+    
+}
+.btn2:hover{
+    background-color: #a09e9e;
+}
+
+.btn3{
+    background-color:gainsboro;
+    color: gray;
+    border: 15px;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 8px 8px 16px #ccc;
+    
+
+}
+.btn3:hover{
+    background-color: #a09e9e;
+}
+
+.btn4{
+    background-color: gainsboro;
+    color: gray;
+    border: 15px;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 8px 8px 16px #ccc;
+    
+
+}
+.btn4:hover{
+    background-color: #a09e9e;
+}
+
+.btn5{
+    background-color: gainsboro;
+    color: gray;
+    border: 15px;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 8px 8px 16px #ccc;
+    
+
+}
+.btn5:hover{
+    background-color: #a09e9e;
+}
+
+
