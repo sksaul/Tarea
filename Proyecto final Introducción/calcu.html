@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="lol">
+        <a href="index.html" class="back">Regresar</a>
+    </div>
+    <div class="calculator">
+        <input type="text" id="numero1" placeholder="Numero 1" class="input">
+        <input type="text" id="numero2" placeholder="Numero 2" class="input">
+        <div class="botones">
+            <button onclick="suma()" class="button">+</button>
+            <button onclick="resta()" class="button">-</button>
+            <button onclick="division()" class="button">/</button>
+            <button onclick="multiplicacion()" class="button">x</button>
+            <button onclick="limpiar()" class="button">C</button>
+        </div>
+        <input type="text" id="resultado" readonly class="input">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

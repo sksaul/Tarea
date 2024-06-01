@@ -1,4 +1,4 @@
-
+import { getDatabase, onValue } from "firebase/database";
 import { verificarVoto,
     recuperarVotaciones,
     votar,
@@ -87,7 +87,7 @@ document.getElementById('btnIniciarSesion').onclick = async function(event){
     const idVotacion = searchParams.get('id');
 
     //obetener votos
-    recuperarVotacion( idVotacion, (votacion) => {
+    recuperarVotos( idVotacion, (votacion) => {
         if (votacion){
             votacionLocal = votacion;
             votacionLocal.id = idVotacion;

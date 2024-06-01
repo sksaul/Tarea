@@ -1,0 +1,120 @@
+html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+body{
+    background-color: #f5f5f5 ;
+}
+
+.row{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
+
+.logo{
+    height: 120px;
+    margin-left: 25px ;
+}
+
+.margin-top{
+    margin-top: 20px;
+}
+
+.button{
+    margin: 5px;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.button:hover{
+   background-color: #ccc;
+
+}
+.light-blue{
+    color: white;
+    background-color: #007bff ;
+}
+ .light-blue:hover{
+    background-color: #008bff;
+ }
+
+ .shadow-border{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: o o 10px rgba(0, 0, 0, 0.1);
+ }
+
+ .modal-title{
+    background-color: red;
+    color: white;
+    padding: 5px;
+    margin: 3px;
+    font-weight: bold;
+    text-align: center;
+ }
+
+ .form-items{
+    display: flex;
+    flex-direction: column;
+ }
+
+ .form-control{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+ }
+
+ .dialog{
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    min-width: 50%;
+    overflow-x: hidden;
+ }
+
+ .dialog-content{
+    display: flex;
+    flex-direction: column;
+ }
+
+ .dialog::backdrop{
+    background-color: black;
+    opacity: 0.5;
+ }
+
+ .table{
+   margin-top: 5px;
+   width: 100%;
+   border-collapse: collapse;
+ }
+
+ .table th, .table td{
+   padding: 10px;
+   border: 1px solid #ccc;
+ }
+
+ .in-cols{
+   display: flex;
+   justify-content: center;
+   min-height: 200px;
+   width: 100%;
+}
+
+.vote-col{
+   margin: 20px;
+   flex-grow: 1;
+   background-color: azure;
+   box-shadow: 0 0 10px rgb(0, 0, 0, 0.6);
+   padding-bottom: 20px;
+}
+
+.profile-picture{
+   max-width: 80px;
+   border-radius: 50px;
+}
